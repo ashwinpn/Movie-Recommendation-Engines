@@ -1,4 +1,4 @@
-# Movies Capstone Project
+# Movies Reccomendation Project
 
 ## Problem Statement
 This project is divided into two parts: 
