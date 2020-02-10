@@ -1,4 +1,4 @@
-# Movies Reccomendation Project
+# Movie Recomendations
 
 ## Problem Statement
 This project is divided into two parts: 
