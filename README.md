@@ -1,11 +1,16 @@
-# Movie Recomendations
+# Movie Recommendations
+
+## Information Retrieval (Scraping)
+
+- Using ``` requests ``` and ``` bs4 (BeautifulSoup) ``` for static web pages and ``` Selenium ``` for dynamic pages
+- Refer [] for a basic shell/structure of a scraper
 
 ## Problem Statement
 This project is divided into two parts: 
 * **The Story of Film:** This section aims at narrating the history, trivia and facts behind the world of cinema through the lens of data. Extensive Exploratory Data Analysis is performed on Movie Metadata about Movie Revenues, Casts, Crews, Budgets, etc. through the years. Two predictive models are built to predict movie revenues and movie success. Through these models, we also aim at discovering what features have the most significant impact in determining revenue and success.
 * **Movie Recommender Systems:** This part is focused around building various kinds of recommendation engines; namely the Simple Generic Recommender, the Content Based Filter and the User Based Collaborative Filter. The performance of the systems are evaluated in both a qualitative and quantitative manner.
 
-## Approach 
+## Approach - Workflow
 
 The problem was divided into several steps:
 
@@ -23,7 +28,7 @@ In addition, four recommendation engines were built based on different ideas and
 
 * **Simple Recommender:** This system used overall TMDB Vote Count and Vote Averages to build Top Movies Charts, in general and for a specific genre. The IMDB Weighted Rating System was used to calculate ratings on which the sorting was finally performed.
 * **Content Based Recommender:** I built two content based engines; one that took movie overview and taglines as input and the other which took metadata such as cast, crew, genre and keywords to come up with predictions. I also devised a simple filter to give greater preference to movies with more votes and higher ratings.
-* **Collaborative Filtering:** I used the powerful Surprise Library to build a collaborative filter based on singular value decomposition. The RMSE obtained was less than 1 and the engine gave estimated ratings for a given user and movie.
+* **Collaborative Filtering:** I used the powerful Surprise Library to build a collaborative filter based on singular value decomposition (SVD). The RMSE obtained was less than 1 and the engine gave estimated ratings for a given user and movie.
 * **Hybrid Engine:** I brought together ideas from content and collaborative filtering to build an engine that gave movie suggestions to a particular user based on the estimated ratings that it had internally calculated for that user.
 
 
@@ -33,3 +38,5 @@ In addition, four recommendation engines were built based on different ideas and
 2. **movies_recommender.ipynb:** The Jupyter notebook containing code for the recommendation engines
 3. **Movies Final Report.pdf:** The Final Report
 4. **reports:** The folder containing all the scrapers used to gather data from TMDB.
+
+
