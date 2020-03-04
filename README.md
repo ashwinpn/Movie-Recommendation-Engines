@@ -3,7 +3,7 @@
 ## Information Retrieval (Scraping)
 
 - Using ``` requests ``` and ``` bs4 (BeautifulSoup) ``` for static web pages and ``` Selenium ``` for dynamic pages
-- Refer [] for a basic shell/structure of a scraper
+- Refer [ashwinpn/Advanced-Python/blob/master/Web%20Scraper.ipynb](https://github.com/ashwinpn/Advanced-Python/blob/master/Web%20Scraper.ipynb) for a basic shell/structure of a scraper.
 
 ## Problem Statement
 This project is divided into two parts: 
@@ -39,4 +39,8 @@ In addition, four recommendation engines were built based on different ideas and
 3. **Movies Final Report.pdf:** The Final Report
 4. **reports:** The folder containing all the scrapers used to gather data from TMDB.
 
-
+## Extension
+- Use XGBoost for classification.
+- Implement basic recommendation models in ``` R ``` and use ``` shiny App ``` for building a web-app.
+- Try **Deep collaborative filtering** : The matrix factorization model can be represented as a neural network. Can also try (traditional collaborative filtering models) + (auto-encoders).
+- [A Reinforcement Learning Framework for Explainable Recommendation, ICDM 2018](https://ieeexplore.ieee.org/abstract/document/8594883/)
