@@ -39,7 +39,7 @@ In addition, four recommendation engines were built based on different ideas and
 3. **Movies Final Report.pdf:** The Final Report
 4. **reports:** The folder containing all the scrapers used to gather data from TMDB.
 
-## Extension
+## Extension - Currently working on:
 - Use XGBoost for classification + Visualization using ```Bokeh``` and ```Plotly.JS```.
 - Implement basic recommendation models in ``` R ``` and use ``` shiny App ``` for building a web-app.
 - Try **Deep collaborative filtering** : The matrix factorization model can be represented as a neural network. Can also try (traditional collaborative filtering models) + (auto-encoders).
