@@ -36,8 +36,7 @@ In addition, four recommendation engines were built based on different ideas and
 
 1. **movies_eda.ipynb:** The Jupyter notebook that contains the EDA and narrates the Story of Film.
 2. **movies_recommender.ipynb:** The Jupyter notebook containing code for the recommendation engines
-3. **Movies Final Report.pdf:** The Final Report
-4. **reports:** The folder containing all the scrapers used to gather data from TMDB.
+3. **scrapers:** The folder containing all the scrapers used to gather data from TMDB.
 
 ## Extension - Currently working on:
 - Use XGBoost for classification + Visualization using ```Bokeh``` and ```Plotly.JS```.
