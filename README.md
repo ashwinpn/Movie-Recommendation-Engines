@@ -1,5 +1,5 @@
 # Movie Recommendations
-See : https://ashwinpn.github.io/Movie-Recommendation-Engine/
+
 ## Information Retrieval (Scraping)
 
 - Using ``` requests ``` and ``` bs4 (BeautifulSoup) ``` for static web pages (and use ``` Selenium ``` for dynamic pages).
