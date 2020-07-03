@@ -2,7 +2,7 @@
 
 ## Information Retrieval (Scraping)
 
-- Using ``` requests ``` and ``` bs4 (BeautifulSoup) ``` for static web pages (and use ``` Selenium ``` for dynamic pages).
+- Using ``` requests ``` and ``` bs4 (BeautifulSoup) ``` for static web pages (and make use of  ``` Selenium ``` for dynamic pages).
 - Refer [Scraper](https://github.com/ashwinpn/Advanced-Python/blob/master/Web%20Scraper.ipynb) for a basic shell/structure of a scraper.
 
 ## Problem Statement
