@@ -1,4 +1,4 @@
-# Movie Recommendations
+# Movie Recommendation
 
 ## Information Retrieval (Scraping)
 
