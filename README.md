@@ -22,7 +22,7 @@ The problem was divided into several steps:
 
 ## Final Results 
 
-A Gradient Boosting Regressor and Classifier were built to predict Movie Revenue and Success respectively with a Score of 0.78 and 0.8 respectively.
+A Gradient Boosting Regressor and Classifier were built to predict Film Revenue and Success respectively with a Score of 0.84 and 0.88 respectively.
 
 In addition, four recommendation engines were built based on different ideas and algorithms:
 
