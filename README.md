@@ -5,6 +5,36 @@
 - Using ``` requests ``` and ``` bs4 (BeautifulSoup) ``` for static web pages (and make use of  ``` Selenium ``` for dynamic pages).
 - Refer the [Scraper](https://github.com/ashwinpn/Advanced-Python/blob/master/Web%20Scraper.ipynb) for a basic shell/structure of a scraper.
 
+Example results from bs4 processing:
+```Javascript
+function lockScroll() {
+            var lockX = window.scrollX;
+            var lockY = window.scrollY;
+
+            function lockIt() {
+                window.scrollTo(lockX, lockY);
+                return false;
+            }
+
+            window.addEventListener("scroll", lockIt, false);
+            return {
+                stop: function () {
+                    window.removeEventListener("scroll", lockIt, false);
+                }
+            }
+        }
+        window.addEventListener("load", function () {
+            $('#ResultsScrollable').bind("scroll", function () {
+                if ($(this).scrollTop() + $(this).innerHeight() >= $(this)[0].scrollHeight) {
+                    var locker = lockScroll();
+                    var loadBtn = document.getElementById('loadMoreJobs');
+                    if (loadBtn) loadBtn.click();
+                    locker.stop();
+                }
+            });
+        });
+```
+
 ## Problem Statement
 This project is divided into two parts: 
 * **The Story of Film:** This section aims at narrating the history, trivia and facts behind the world of cinema through the lens of data. Extensive Exploratory Data Analysis is performed on Movie Metadata about Movie Revenues, Casts, Crews, Budgets, etc. through the years. Two predictive models are built to predict movie revenues and movie success. Through these models, we also aim at discovering what features have the most significant impact in determining revenue and success.
