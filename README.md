@@ -1,6 +1,24 @@
 # The Cold Start Problem
 
+The cold start problem refers to the scenario faced by recommendation systems when there isn't enough information [either due to lack of users, or due to the items being new / the platform being launched just now] for the system to make a decent recommendation action.
+
+Thus, the system cannot draw inference for users or items for which it has not yet gathered sufficient information.
+
+- 1] ITEM CARECTERISTICS => CONTENT BASED FILTERING.
+- 2] USER's SOCIAL ENVIRONMENT / PAST BEHAVIOR => COLLABORATIVE FILTERING.
+
+## Types of problems
+### New Community
+
+### New Item
+
+### New User
+
 #  Movie Recommendation
+
+The use case of Movie Recommendations suffers from <ins> popularity bias </ins>. That is, we would have a minority of movies in a dataset which have been viewed / rated / favorited by a lot of people - on the other hand, most of the movies would not have been viewed / rated / favorited by a number of people significant enough for them to be recommended.
+
+
 
 ## Information Retrieval (Scraping)
 
