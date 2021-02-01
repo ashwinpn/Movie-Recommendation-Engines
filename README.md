@@ -32,7 +32,7 @@ function lockScroll() {
                     var loadBtn = document.getElementById('loadMoreJobs');
                     if (loadBtn) loadBtn.click();
                     locker.stop();
-                }
+                } 
             });
         });
 ```
