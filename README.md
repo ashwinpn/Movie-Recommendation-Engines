@@ -18,6 +18,9 @@ Thus, the system cannot draw inference for users or items for which it has not y
 
 The use case of Movie Recommendations suffers from <ins> popularity bias </ins>. That is, we would have a minority of movies in a dataset which have been viewed / rated / favorited by a lot of people - on the other hand, most of the movies would not have been viewed / rated / favorited by a number of people significant enough for them to be recommended.
 
+## Popularity Bias
+A handful of items receive a large number of interaction, while most of the items recieve only a fraction of them.
+FEW INERACTIONS => POOR RECOMMENDATIONS.
 
 
 ## Information Retrieval (Scraping)
