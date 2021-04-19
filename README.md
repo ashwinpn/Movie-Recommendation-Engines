@@ -4,7 +4,7 @@ The cold start problem refers to the scenario faced by recommendation systems wh
 
 Thus, the system cannot draw inference for users or items for which it has not yet gathered sufficient information.
 
-- 1] ITEM CARECTERISTICS => CONTENT BASED FILTERING. "Find another item similar to a given item".
+- 1] ITEM CHARACTERISTICS => CONTENT BASED FILTERING. "Find another item similar to a given item".
 - 2] USER's SOCIAL ENVIRONMENT / PAST BEHAVIOR => COLLABORATIVE FILTERING. "Find another user similar to a given user. Hypothesis: Similar users will buy similar items."
 
 ## Types of problems
